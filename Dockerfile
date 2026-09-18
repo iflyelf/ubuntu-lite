@@ -43,12 +43,10 @@ ARG PKG_DEPS="\
     net-tools \
     nftables \
     bridge-utils \
-    openvswitch-switch \
     socat \
     psmisc \
     procps \
     sysstat \
-    firewalld \
     chrony \
     tcpdump \
     telnet \
