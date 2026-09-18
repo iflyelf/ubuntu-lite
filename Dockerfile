@@ -37,17 +37,13 @@ ARG PKG_DEPS="\
     bash-doc \
     bash-completion \
     ipset \
-    ipvsadm \
     bind9-dnsutils \
     iproute2 \
-    net-tools \
     nftables \
-    bridge-utils \
     socat \
     psmisc \
     procps \
     sysstat \
-    chrony \
     tcpdump \
     telnet \
     lsof \
@@ -66,8 +62,6 @@ ARG PKG_DEPS="\
     lrzsz \
     openssl \
     locate \
-    lvm2 \
-    rsyslog \
     ca-certificates \
     locales \
     tzdata \

@@ -28,8 +28,8 @@ docker run -it --rm iflyelf/ubuntu:lite
 - 时区：`Asia/Shanghai`
 - 语言：`zh_CN.UTF-8`
 - Shell：zsh + oh-my-zsh
-- 网络与排障：iproute2、net-tools、nftables、ipset、ipvsadm、bridge-utils、socat、tcpdump、telnet、iftop、lsof、bind9-dnsutils、iputils-ping
-- 系统工具：procps、psmisc、sysstat、htop、lvm2、rsyslog、chrony、tini
+- 网络与排障：iproute2、nftables、ipset、socat、tcpdump、telnet、iftop、lsof、bind9-dnsutils、iputils-ping
+- 系统工具：procps、psmisc、sysstat、htop、tini
 - 常用命令：curl、wget、axel、git、vim、jq、tree、zip/unzip、tar、lrzsz、openssl、sshpass、locate
 
 完整清单见 [Dockerfile](./Dockerfile) 中的 `PKG_DEPS`。
