@@ -12,7 +12,7 @@ Ubuntu 精简版基础镜像。基于 [ubuntu-docker](https://github.com/iflyelf
 docker pull iflyelf/ubuntu:lite
 
 # 华为云 SWR（国内推荐）
-docker pull swr.cn-east-3.myhuaweicloud.com/danxiaonuo/ubuntu:lite
+docker pull swr.cn-east-3.myhuaweicloud.com/iflyelf/ubuntu:lite
 ```
 
 ## 运行
